@@ -17,3 +17,66 @@
   --cor-subtitulo-rgba: rgba(0, 0, 0, 0.2);
   --onda: url(./img/onda-clara.svg);
 }
+
+/* 3. estilos gerais */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cor-fundo-1);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 4. componentes */
+
+.container {
+  max-width: 1200px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+/* 5. header */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3.75rem;
+  margin: 3.75rem auto;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.header-links li a {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  color: var(--cor-texto);
+  background-color: var(--cor-fundo-2);
+}
+
+.header-links li a:hover {
+  border-color: var(--cor-primaria);
+}
