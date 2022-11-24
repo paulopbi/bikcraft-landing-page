@@ -81,6 +81,17 @@ a {
   border-color: var(--cor-primaria);
 }
 
+@media (max-width: 400px) {
+  .header {
+    gap: 2rem;
+  }
+  .header-links {
+    gap: 1rem;
+    place-items: center;
+    flex-direction: column;
+  }
+}
+
 /* 6. hero */
 
 .article-hero {
