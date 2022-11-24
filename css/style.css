@@ -154,3 +154,73 @@ a {
     grid-row: 1;
   }
 }
+
+/* 7. vantagens */
+
+.vantagens {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.vantagens h2 {
+  font-size: 4rem;
+  padding: 2.5rem;
+  text-align: right;
+  word-break: break-all;
+  align-self: center;
+  text-transform: uppercase;
+  color: var(--cor-subtitulo-rgba);
+  background: url("../img/onda-clara.svg") no-repeat center;
+}
+
+.vantagens-lista {
+  padding: 2.5rem;
+  background-color: var(--cor-fundo-2);
+}
+
+.vantagens-lista li {
+  display: grid;
+  padding: 18px;
+  gap: 10px 20px;
+  transition: 0.3s;
+  border-left: 4px solid transparent;
+  grid-template-columns: auto, 1fr;
+}
+
+.vantagens-lista li:nth-child(odd) {
+  background-color: var(--cor-fundo-1);
+}
+
+.vantagens-lista li:hover {
+  border-color: var(--cor-primaria);
+}
+
+.vantagens-lista li h5 {
+  font-size: 1.25rem;
+  grid-column: 2;
+}
+
+.vantagens-lista li p {
+  font-size: 1.37rem;
+  grid-column: 2;
+  word-wrap: break-word;
+}
+
+@media (max-width: 700px) {
+  .vantagens {
+    grid-template-columns: 1fr;
+  }
+
+  .vantagens h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .vantagens-lista li h5 {
+    font-size: 1.2rem;
+  }
+
+  .vantagens-lista li p {
+    font-size: 1rem;
+  }
+}
