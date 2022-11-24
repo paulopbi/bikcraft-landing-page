@@ -1,0 +1,19 @@
+/* 1. reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 2. variaveis */
+
+:root {
+  --cor-primaria: #e21;
+  --cor-primaria-escura: #900;
+  --cor-fundo-1: #f7f7f7;
+  --cor-fundo-2: #fff;
+  --cor-texto: #000;
+  --cor-subtitulo-rgba: rgba(0, 0, 0, 0.2);
+  --onda: url(./img/onda-clara.svg);
+}
