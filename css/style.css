@@ -51,18 +51,16 @@ a {
 
 .header {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
   gap: 3.75rem;
   margin: 3.75rem auto;
 }
 
 .header-links {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  place-content: center;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
@@ -73,6 +71,7 @@ a {
   border-radius: 4px;
   text-transform: uppercase;
   border: 2px solid transparent;
+  transition: 0.3s;
   color: var(--cor-texto);
   background-color: var(--cor-fundo-2);
 }
