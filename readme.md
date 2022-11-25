@@ -5,7 +5,7 @@
 </div>
 
 <br>
-<a href="" target="_blank">
+<a href="https://paulopbi.github.io/bikecraft-landing-page/" target="_blank">
 <strong>Site completo »</strong>
 </a>
 
