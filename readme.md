@@ -19,12 +19,11 @@ Landing Page da contando detalhes sobre a bicicletas elétrica "Star Nimbus".
 
 ## Bikcraft landing page
 
-<div align="left">
   <img src="./img/demo-light.gif" alt="demo light do projeto">
-</div>
 
-> Briefing do projeto
+> Gif de demonstração desktop.
 
+## Sobre
 A Nimbus Stark é a melhor bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.
 
 O que essa bikcraft tem?
@@ -41,9 +40,9 @@ O código do site foi todo feito com **html**, **css** puro, a interface e bem s
 
 O projeto possui a feature de dark / light mode, ele e ativado de acordo com as preferência do seu navegador, nessa demo você pode ver um pouco mais da versão mobile também!
 
-<div align="left">
 <img src="./img/demo-dark.gif" alt="demonstracao">
-</div>
+
+> Gif de demonstração na versao mobile.
 
 ## Projeto principal
 
