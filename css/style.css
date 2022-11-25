@@ -95,6 +95,21 @@ a {
 
 /* 6. hero */
 
+main {
+  position: relative;
+}
+
+.introducao::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 47%;
+  width: 60px;
+  height: 4px;
+  background-color: var(--cor-primaria);
+}
+
 .article-hero {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
