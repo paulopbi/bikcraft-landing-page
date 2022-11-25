@@ -23,7 +23,7 @@ Landing Page da contando detalhes sobre a bicicletas elétrica "Star Nimbus".
   <img src="./img/demo-light.gif" alt="demo light do projeto">
 </div>
 
-> Briefing
+> Briefing do projeto
 
 A Nimbus Stark é a melhor bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.
 
